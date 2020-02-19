@@ -29,6 +29,7 @@ class Login(unittest.TestCase):
     def setUp(self):
         pass
 
+
     @classmethod
     def tearDown(self):
         pass
@@ -45,3 +46,5 @@ class Login(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    print(os.path.abspath(__file__))
+    print(os.path.dirname(__file__))
