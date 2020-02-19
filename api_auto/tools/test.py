@@ -15,11 +15,11 @@ def send_mail(file_new):
     # 发送邮箱服务器
     smtpserver = "smtp.126.com"
     # 发件人邮箱
-    sender = 'wangqun@dealsports.cn'
+    sender = 'wanun@dealsports.cn'
     # 发件人邮箱密码
-    password = 'Wangqun123'
+    password = 'Wanun123'
     # 接收人邮箱
-    receiver = ['1164843195@qq.com', 'buyer_1291455767_per@wondershare.cn']
+    receiver = ['1164843@qq.com', 'buyer_1291455767_per@wondershare.cn']
 
     # 通过  模块构造的带附件的邮件如图
     msg = MIMEMultipart()
